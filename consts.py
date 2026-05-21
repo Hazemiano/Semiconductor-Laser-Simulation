@@ -1,0 +1,13 @@
+X = 4e-6
+Y = 4
+L = 200+30*X
+R = 0.3+0.02*Y
+W = 2e-6 # m
+D = 0.2e-6 # m
+GAMMA = 0.3
+NG = 4
+ALPHA_INT = 40
+B = 2.5e-16 # cm^-2
+N0 = 1e18 # cm^-3
+TAU = 2.2e-9 # s
+BETA_SP = 1e-4
