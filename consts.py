@@ -18,8 +18,8 @@ E = 1.6e-19
 C = 3e10
 
 vg = C/NG # group velocity
-alpha_tot = ALPHA_INT + 0.5*np.log(1/(R*R))/L # total alpha loss
-ALPHA_M=(1/(2*L))*(np.log((1/R*R)))
+ALPHA_M=(1/(2*L))*(np.log((1/(R*R))))
+alpha_tot = ALPHA_INT + ALPHA_M # total alpha loss
 V = L * D * W # volume of the diode
 tau_ph = 1/(vg*alpha_tot) # photon lifetime 
 g_th = alpha_tot / GAMMA; # gain 
