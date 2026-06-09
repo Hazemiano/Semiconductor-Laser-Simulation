@@ -14,7 +14,6 @@ N0 = 1e18 # transparency carrier density
 TAU = 2.2e-9 # spontaneous lifetime
 BETA_SP = 1e-4 # spontaenous emission factor
 H = 6.62607015e-34
-E = 1.6e-19
 C = 3e10
 
 vg = C/NG # group velocity
