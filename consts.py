@@ -26,3 +26,7 @@ g_th = alpha_tot / GAMMA; # gain
 q = 1.6*1e-19 # electric charge
 lamda = 1.55e-4 # operating wavelength (assumed to be 1.55um)
 freq = C/lamda
+
+Nth = 1/(GAMMA * B * vg * tau_ph) + 1e18  # carrier density at threshold
+Jth = Nth * E * D / TAU  # current density at threshold
+Ith = Jth * L * W  # threshold current
